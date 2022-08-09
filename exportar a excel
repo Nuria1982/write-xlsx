@@ -1,0 +1,6 @@
+
+install.packages("openxlsx")
+library(openxlsx)
+
+
+write.xlsx(datos_olavarria, "datos_olavarria.xlsx")
